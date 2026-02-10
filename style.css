@@ -691,3 +691,64 @@ html {
   color: white;
   cursor: pointer;
 }
+
+/* ===== MOBILE FIX ANDROID ===== */
+@media (max-width: 480px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 60px 0;
+  }
+
+  .hero-container {
+    gap: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+    margin: 15px auto;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 8px 4px;
+    padding: 10px 18px;
+  }
+
+  .hero-image img {
+    width: 160px;
+  }
+
+  .section {
+    padding: 70px 0;
+  }
+
+  .section h2 {
+    font-size: 1.9rem;
+  }
+
+  .card,
+  .project-card,
+  .contact-card {
+    padding: 22px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+}
+
